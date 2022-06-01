@@ -13,11 +13,23 @@ body {
 }
 
 .content {
-    position: fixed;
-    top: 25%;
-    left: 11%;
-    color: #ffff66;
-    width: 100%;
-    padding: 2%;
-    font-size: 4vw;
+    height: 46vw;                   /* height: 42vw;*/
+    width: 105vh;                   /*width: 125vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
   }
+
+p {
+    color: #ffff66;
+    font-size: 4vw;
+}
+
+
+/* @media only screen and (min-width: 1200px){
+    .content {
+        height: 46vw;
+        width: 105vh;
+    }
+} */
