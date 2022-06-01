@@ -1,4 +1,4 @@
-var launch = new Date("june 1, 2022 10:00:00").getTime();
+var launch = new Date("oct 1, 2022 00:00:00").getTime();
 
 var x = setInterval(function(){
     var now = new Date().getTime();
