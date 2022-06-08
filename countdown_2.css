@@ -32,14 +32,14 @@ body {
     align-items: center;
     position: relative;
     padding: 4px;
-    height: 10vw;
+    height: 5vw;
     width: 105vh;
     top: 70px; 
 }
 
 .date_txt {
     position: relative;
-    bottom: 130px;
+    bottom: 90px;
 }
 
 
