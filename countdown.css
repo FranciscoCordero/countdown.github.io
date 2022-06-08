@@ -11,6 +11,10 @@ body {
     width: 100%;
     height: 100%;
 }
+@font-face {
+    font-family: Avenir;
+    src: url(./src/AvenirNextLTPro-HeavyCn.otf);
+}
 
 .content {
     height: 46vw;                   /* height: 42vw;*/
@@ -19,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     position: sticky;
+    font-family: Avenir;
   }
 
 p {
