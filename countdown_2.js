@@ -15,7 +15,7 @@ var x = setInterval(function(){
     document.getElementById("countdown").innerHTML = "&nbsp "+ days + "&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp" + hours + " &nbsp;&nbsp;:&nbsp;&nbsp;  " + minutes + " &nbsp;:&nbsp;&nbsp" + seconds 
 }, 1000)
 
-var limit_date = new Date("august 16, 2022 00:00:00").getTime();
+var limit_date = new Date("august 15, 2022 00:00:00").getTime();
 
 var y = setInterval(function(){
     var now = new Date().getTime();
