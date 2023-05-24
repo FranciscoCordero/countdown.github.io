@@ -5,16 +5,35 @@ var x = setInterval(function(){
     var diff = launch - now ;
 
     var days = Math.floor(diff / (1000* 60*60*24));
-    console.log(days)
-    
-    var hours = Math.floor((diff % (1000* 60*60*24)) / (1000* 60*60));
-    console.log(hours)
-    
-    var minutes = Math.floor((diff % (1000* 60*60)) / (1000* 60));
-    console.log(minutes)
-    
-    var seconds = Math.floor((diff % (1000* 60)) / 1000);
-    console.log(seconds)
 
-    document.getElementById("countdown").innerHTML = "&nbsp "+ days + "&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp" + hours + " &nbsp;&nbsp;:&nbsp;&nbsp;  " + minutes + " &nbsp;:&nbsp;&nbsp" + seconds 
+    var hours = Math.floor((diff % (1000* 60*60*24)) / (1000* 60*60));
+
+    var minutes = Math.floor((diff % (1000* 60*60)) / (1000* 60));
+
+    var seconds = Math.floor((diff % (1000* 60)) / 1000);
+
+    document.getElementById("launch-dd").innerHTML = days
+    document.getElementById("launch-hh").innerHTML = hours
+    document.getElementById("launch-mm").innerHTML = minutes
+    document.getElementById("launch-ss").innerHTML = seconds
+}, 1000)
+
+var limit_date = new Date("june 15, 2023 00:00:00").getTime();
+
+var y = setInterval(function(){
+    var now = new Date().getTime();
+    var diff = limit_date - now ;
+
+    var days = Math.floor(diff / (1000* 60*60*24));
+
+    var hours = Math.floor((diff % (1000* 60*60*24)) / (1000* 60*60));
+
+    var minutes = Math.floor((diff % (1000* 60*60)) / (1000* 60));
+
+    var seconds = Math.floor((diff % (1000* 60)) / 1000);
+
+    document.getElementById("deploy-dd").innerHTML = days
+    document.getElementById("deploy-hh").innerHTML = hours
+    document.getElementById("deploy-mm").innerHTML = minutes
+    document.getElementById("deploy-ss").innerHTML = seconds
 }, 1000)

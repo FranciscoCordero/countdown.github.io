@@ -13,22 +13,76 @@ body {
 }
 @font-face {
     font-family: Avenir;
-    src: url(./src/AvenirNextLTPro-HeavyCn.otf);
+    src: url(./src/Avenir/Avenir\ Black.ttf);
 }
 
-.content {
-    height: 46vw;                   /* height: 42vw;*/
-    width: 105vh;                   /*width: 125vh; */
+.launch-time {
+    text-align: center;
+    height: 33vw;                   /* height: 42vw;*/
+    width: 100vh;
+    margin-left: 5vh;  
+    margin-top: 11.5vh;                 /*width: 125vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
     font-family: Avenir;
-  }
+}
 
-p {
+.launch-div-time-dd {
+    width: 18vh;
+}
+
+.launch-div-time-hh {
+    width: 18vh;
+}
+
+.launch-div-time-mm {
+    width: 18vh;
+}
+
+.launch-div-time-ss {
+    width: 20.5vh;
+}
+
+.deploy {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4px;
+    height: 5.5vw;
+    width: 105vh;
+    top: 55px;
+    margin-left: 2vh; 
+}
+
+.deploy-div-time-dd {
+    width: 18vh;
+}
+
+.deploy-div-time-hh {
+    width: 18vh;
+}
+
+.deploy-div-time-mm {
+    width: 18vh;
+}
+
+.deploy-div-time-ss {
+    width: 20.5vh;
+}
+.date_txt {
+    position: relative;
+    bottom: 100px;
+}
+
+
+.txt-time {
     color: #ffff66;
-    font-size: 4vw;
+    font-size: 3.5vw;
+    font-family: Avenir;
 }
 
 
