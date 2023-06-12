@@ -18,7 +18,7 @@ var x = setInterval(function(){
     document.getElementById("launch-ss").innerHTML = seconds
 }, 1000)
 
-var limit_date = new Date("june 19, 2023 00:00:00").getTime();
+var limit_date = new Date("june 19, 2023 18:14:00").getTime();
 
 var y = setInterval(function(){
     var now = new Date().getTime();
